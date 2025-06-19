@@ -7,6 +7,27 @@
 
 
         
+
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Containers: Attach to Node",
+            "remoteRoot": "/usr/src/app"
+        },
+        {
+            "name": "Containers .NET Attach (Preview)",
+            "type": "docker",
+            "request": "attach",
+        {  "platform": "netCore",
+            "sourceFileMap": {
+                "/src": "${workspaceFolder}"
+            }
+        },
+        
+        
+        {
+            "git.vscode/launch.json"
+        }
         {
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
@@ -211,9 +232,12 @@
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
-        }
+        },
+       
         {
   
            "address": "localhost"
 
-        } 
+        }, 
+    },
+},

@@ -1018,7 +1018,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-vscode.remote-server"
+				"ms-vscode.remote-server",
+				"jaime-hr.node-watch"
 			]
 		}
 	}
